@@ -1,4 +1,4 @@
-tinywallin.github.io
+tinywallin
 ====================
 
 Tinywall.in website
