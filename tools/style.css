@@ -5,175 +5,220 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 body{
 margin:0;
 padding:0;
-background: #0e1d3a url(../images/bg.png) top center no-repeat;
+background: #fff url(../images/bg.jpg) top center repeat-x;
 font-family: Helvetica Neue, Helvetica, Arial;
+color: #ffffff;
 }
 
-.main_container{
-width: 940px;
+.content_wrapper{
+width: 100%;
+float: left;
+padding-bottom: 30px;
+}
+
+.top_content{
+width: 980px;
 margin: 0 auto;
 }
 
 .header{
 width: 940px;
 float: left;
+padding: 30px 20px 0;
 }
 
-a{
-color: #fff;
-text-decoration: none;
-}
-
-a:hover
-{
-text-decoration: underline;
-}
-
-a.logo{
-width: 418px;
-padding-top: 20px;
-margin: 0 auto;
-height: 145px;
-text-align: center;
-font-size: 31px;
-color: #fff;
-display: block;
-background: url(../images/logo.png) left bottom no-repeat;
-}
-
-a.logo span{
-display: block;
-font-size: 10px;
-font-family: Bell Gothic Std;
-font-weight: 100;
-text-transform: uppercase;
-text-align: center;
-letter-spacing: 1px;
-}
-
-a:hover.logo{
-text-decoration: none;
-} 
-
-.content{
-width: 940px;
+.iphone{
+width: 258px;
+margin-left: 24px;
+height: 388px;
 float: left;
-padding-bottom: 70px;
-background: url(../images/divider.png) center bottom no-repeat;
-margin-bottom: 25px;
+background: url(../images/iphone.png) left top no-repeat;
+padding: 111px 24px 0 27px;
+}
+
+.logo_content{
+width: 550px;
+float: right;
+margin-top: 120px;
 }
 
 h1{
-font-size: 152px;
-font-weight: bold;
-line-height: 90px;
-letter-spacing: -2px;
-color: #fff;
+font-size: 81px;
+margin-bottom: 20px;
+}
+
+h3{
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+p{
+font-size: 14px;
+line-height: 22px;
+}
+
+a.get_notified{
+width: 440px;
+height: 57px;
+margin: 40px 0 0 0;
 float: left;
-text-shadow:0px 5px 5px #162647;
-}
-
-h1 span{
-display: block;
-font-size: 44px;
-font-weight: 200;
-color: #d2e1ff;
-letter-spacing: 0;
-}
-
-.right_side{
-width: 376px;
-float: right;
-margin-top: 10px;
-}
-
-.right_side p{
-font-size: 30px;
-letter-spacing: -1px;
-color: #fff;
-font-weight: 200;
-line-height: 50px;
-}
-
-ul.s_icons{
-width: 376px;
-height: 27px;
-margin-top: 15px;
-}
-
-ul.s_icons li{
-float: left;
-background: url(../images/s_icons.png) 0 0 no-repeat;
-height: 27px;
-}
-
-ul.s_icons li a{
-display: block;
-height: 27px;
-}
-
-ul.s_icons li.fb{
-margin-right: 36px;
-width: 100px;
-height: 27px;
-background-position: 0 0;
-}
-
-ul.s_icons li.fb:hover{
-background-position: left bottom;
-}
-
-ul.s_icons li.tw{
-margin-right: 38px;
-background-position: -136px 0;
-width: 100px;
-height: 27px;
-}
-
-ul.s_icons li.tw:hover{
-background-position: -136px bottom;
-}
-
-ul.s_icons li.in{
-width: 101px;
-height: 27px;
-background-position: -275px 0;
-}
-
-ul.s_icons li.in:hover{
-background-position: -275px bottom;
-}
-
-.email{
-width: 643px;
-margin: 0 auto;
-}
-
-.field{
-width: 423px;
-height: 61px;
-float: left;
-background: url(../images/field.png) left top no-repeat;
-border: 0;
-padding: 0 35px;
+background: url(../images/button.png) left top no-repeat;
 font-size: 26px;
-color: #8598bb;
-font-family: Helvetica Neue, Helvetica, Arial;
+color: #ee5627;
+text-decoration: none;
+font-weight: 200;
+text-align: center;
+line-height: 54px;
 }
 
-.submit{
-width: 150px;
-height: 61px;
+a.get_notified strong{
+font-weight: 500;
+}
+
+a:hover.get_notified{
+background: url(../images/button.png) left bottom no-repeat;
+color: #ffffff;
+}
+
+a.personalwebsite{
+	color:#fff;	
+	text-decoration: none;
+}
+
+a:hover.personalwebsite{
+	color:#fff;	
+	text-decoration: underline;
+}
+
+.shadow{
+width: 100%;
+height: 16px;
+background: url(../images/shadow.png) repeat;
 float: left;
-background: url(../images/submit.png) left top no-repeat;
-border: none;
+margin: -16px 0 0 0;
 }
 
-.submit:hover{
+.white_content{
+width: 100%;
+background: #fff;
 float: left;
-background: url(../images/submit.png) left bottom no-repeat;
 }
 
-.copyrights{
-	color:#aaa;
+.coming_soon{
+width: 345px;
+float: left;
+padding: 0 0 0 34px;
+}
+
+p.c_soon{
+color: #ee5627;
+font-size: 34px;
+font-weight: 200;
+line-height: 40px;
+}
+
+p.c_soon strong{
+font-size: 50px;
+}
+
+ul.social{
+float: left;
+padding: 0 23px 0 39px;
+width: 330px;
+border-right: 1px solid #fdeee9;
+border-left: 1px solid #fdeee9;
+}
+
+ul.social li{
+float: left;
+font-size: 12px;
+text-align: center;
+}
+
+ul.social li a{
+color: #ee5627;
+text-decoration: none;
+width: 90px;
+height:24px;
+float: left;
+padding-top: 36px;
+text-align: center;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+margin-bottom: 20px;
+margin-right: 20px;
+}
+
+ul.social li a:hover{
+color: #ffffff;
+}
+
+
+ul.social li a.googleplus{
+background: #ffffff url(../images/social.png) 34px -74px no-repeat;
+}
+
+ul.social li a:hover.googleplus{
+background: #ee5627 url(../images/social.png) -43px -74px no-repeat;
+}
+
+ul.social li a.twitter{
+background: #ffffff url(../images/social.png) 34px 10px no-repeat;
+}
+
+ul.social li a:hover.twitter{
+background: #ee5627 url(../images/social.png) -43px 10px no-repeat;
+}
+
+ul.social li a.facebook{
+background: #ffffff url(../images/social.png) 38px -157px no-repeat;
+}
+
+ul.social li a:hover.facebook{
+background: #ee5627 url(../images/social.png) -39px -157px no-repeat;
+}
+
+ul.social li a.email{
+background: #ffffff url(../images/social.png) 34px -413px no-repeat;
+}
+
+ul.social li a:hover.email{
+background: #ee5627 url(../images/social.png) -43px -413px no-repeat;
+}
+
+ul.social li a.youtube{
+background: #ffffff url(../images/social.png) 34px -242px no-repeat;
+}
+
+ul.social li a:hover.youtube{
+background: #ee5627 url(../images/social.png) -43px -242px no-repeat;
+}
+
+ul.social li a.pinterest{
+background: #ffffff url(../images/social.png) 34px -327px no-repeat;
+}
+
+ul.social li a:hover.pinterest{
+background: #ee5627 url(../images/social.png) -43px -327px no-repeat;
+}
+
+.copyright{
+width: 140px;
+float: left;
+padding-left: 27px;
+padding-top: 35px;
+}
+
+.copyright p{
+font-size: 12px;
+color: #666666;
+}
+
+.copyright p span{
+font-size: 12px;
+color: #ee5627;
+}
+
+.footer-backlink{
+	color: #666666;
 }
